@@ -33,7 +33,6 @@ class Solution {
         {
             return result;
         }
-
         return result+=(hasApple.get(index) || result>0)?2:0;
     }
 }
