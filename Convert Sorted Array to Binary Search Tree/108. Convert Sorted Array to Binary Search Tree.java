@@ -22,7 +22,6 @@ class Solution {
         if (leftS > rightS) { 
             return null;
         }
-        
         int middle = (leftS + rightS) / 2;
         TreeNode root = new TreeNode(nums[middle]);  
         root.left = inOrder(nums, leftS, middle - 1); 
