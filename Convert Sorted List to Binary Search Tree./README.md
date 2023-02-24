@@ -1,9 +1,9 @@
-###**109. Convert Sorted List to Binary Search Tree**###
+**109. Convert Sorted List to Binary Search Tree**
 
 Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height-balanced binary search tree.
-
+</br>
 **Example 1:**
-Input: head = [-10,-3,0,5,9]
+Input: head = [-10,-3,0,5,9]</br>
 Output: [0,-3,9,-10,null,5]
 Explanation: One possible answer is [0,-3,9,-10,null,5], which represents the shown height balanced BST.
 
