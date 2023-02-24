@@ -1,4 +1,4 @@
-<h1 style="color:blue">109.Convert Sorted List to Binary Search Tree</h1>
+<h3>109.Convert Sorted List to Binary Search Tree</h3>
 <br>
 Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height-balanced binary search tree.
 </br>
