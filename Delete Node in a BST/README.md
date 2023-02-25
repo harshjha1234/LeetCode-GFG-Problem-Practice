@@ -18,6 +18,7 @@ One valid answer is [5,4,6,2,null,null,7], shown in the above BST.<br>
 Please notice that another valid answer is [5,2,6,null,4,null,7] and it's also accepted.<br>
 <br>
 <b>Example 2:</b><br>
+<br>
 <img src="https://user-images.githubusercontent.com/74855047/221373888-b6612cca-2454-4e49-bfcc-7977c11a0ea2.png">
 
 <br>
@@ -34,7 +35,7 @@ Output: []<br>
 <b>Constraints:</b><br>
 <br>
 The number of nodes in the tree is in the range [0, 10^4].<br>
-<p style="color:gray;">-10^5 <= Node.val <= 10^5</p><br>
+<p style="color:white;">-10^5 <= Node.val <= 10^5</p>
 Each node has a <b>unique</b> value.<br>
 root is a valid binary search tree.<br>
-<p style="color:gray;">-10^5 <= key <= 10^5</p><br>
+<p style="color:white;">-10^5 <= key <= 10^5</p>
