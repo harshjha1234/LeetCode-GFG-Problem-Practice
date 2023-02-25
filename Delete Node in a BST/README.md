@@ -35,7 +35,8 @@ Output: []<br>
 <b>Constraints:</b><br>
 <br>
 The number of nodes in the tree is in the range [0, 10^4].<br>
-# -10^5 <= Node.val <= 10^5<br>
+-10^5 <= Node.val <= 10^5<br>
 Each node has a <b>unique</b> value.<br>
 root is a valid binary search tree.<br>
-# -10^5 <= key <= 10^5</p>
+$${\color{green}-10^5 <= key <= 10^5}$$	
+-10^5 <= key <= 10^5
