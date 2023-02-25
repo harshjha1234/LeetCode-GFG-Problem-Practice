@@ -9,6 +9,8 @@ If the node is found, delete the node.<br>
 <br>
 <b>Example 1:</b><br>
 <br>
+![image](https://user-images.githubusercontent.com/74855047/221373264-fda9d44d-aa67-4548-b25c-672542c77999.png)
+<br>
 Input: root = [5,3,6,2,4,null,7], key = 3<br>
 Output: [5,4,6,2,null,null,7]<br>
 Explanation: Given key to delete is 3. So we find the node with value 3 and delete it.<br>
