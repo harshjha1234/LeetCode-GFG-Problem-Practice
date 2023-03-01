@@ -2,13 +2,14 @@
 <br>
 Given the head of a singly linked list, return true if it is a palindrome or false otherwise.<br>
 <br>
-<br> 
 <b>Example 1:</b><br>
+<br>
 <img src="https://user-images.githubusercontent.com/74855047/222211946-9d296aac-88aa-40fa-a764-5e570ca902db.png">
 Input: head = [1,2,2,1]<br>
 Output: true<br>
 <br>
 <b>Example 2:</b><br>
+<br>
 <img src="https://user-images.githubusercontent.com/74855047/222212164-b8f8c721-d17a-46e6-b0c3-3858458f8abd.png">
 Input: head = [1,2]<br>
 Output: false<br>
