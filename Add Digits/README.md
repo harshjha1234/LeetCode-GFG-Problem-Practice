@@ -20,4 +20,5 @@ Given an integer <code>num</code>, repeatedly add all its digits until the resul
 </pre>
 <br> 
 <b>Constraints:</b><br>
-<li> == $0 :: marker <code>0 <= num <= 2^31 - 1</code></li>
+<br>
+<li><code>0 <= num <= 2^31 - 1</code></li>
