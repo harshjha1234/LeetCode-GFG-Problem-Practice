@@ -2,6 +2,7 @@
 Given an integer <code>num</code>, repeatedly add all its digits until the result has only one digit, and return it.<br>
 <br>
 <b>Example 1:</b><br>
+<br>
 <pre>
   <strong>Input:</strong> num = 38
   <strong>Output:</strong> 2
@@ -12,10 +13,11 @@ Given an integer <code>num</code>, repeatedly add all its digits until the resul
 </pre>
 <br>
 <b>Example 2:</b><br>
+<br>
 <pre>
   <strong>Input:</strong> num = 0
   <strong>Output:</strong> 0
 </pre>
 <br> 
 <b>Constraints:</b><br>
-<code>0 <= num <= 2^31 - 1</code>
+<li> == $0 :: marker <code>0 <= num <= 2^31 - 1</code></li>
