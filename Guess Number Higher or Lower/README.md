@@ -1,12 +1,12 @@
 <h3>374. Guess Number Higher or Lower</h3><br>
 
-We are playing the Guess Game. The game is as follows:
+We are playing the Guess Game. The game is as follows:<br>
 <br>
-I pick a number from <code>1</code> to <code>n</code>. You have to guess which number I picked.
+I pick a number from <code>1</code> to <code>n</code>. You have to guess which number I picked.<br>
 <br>
-Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
+Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.<br>
 <br>
-You call a pre-defined API <code>int guess(int num)</code>, which returns three possible results:
+You call a pre-defined API <code>int guess(int num)</code>, which returns three possible results:<br>
 <br>
 <li><code>-1</code>: Your guess is higher than the number I picked (i.e. <code>num > pick</code>).</li>
 <li> 1: Your guess is lower than the number I picked (i.e. <code>num < pick</code>).</li>
