@@ -9,8 +9,8 @@ Every time you guess wrong, I will tell you whether the number I picked is highe
 You call a pre-defined API <code>int guess(int num)</code>, which returns three possible results:<br>
 <br>
 <li><code>-1</code>: Your guess is higher than the number I picked (i.e. <code>num > pick</code>).</li>
-<li> 1: Your guess is lower than the number I picked (i.e. <code>num < pick</code>).</li>
-<li>0: your guess is equal to the number I picked (i.e. <code>num == pick</code>).</li>
+<li><code>1</code>: Your guess is lower than the number I picked (i.e. <code>num < pick</code>).</li>
+<li><code>0</code>: your guess is equal to the number I picked (i.e. <code>num == pick</code>).</li>
 <br>
 Return the number that I picked.<br>
 <br>
