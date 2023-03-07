@@ -9,17 +9,17 @@ You must not use any built-in library function, such as <code>sqrt</code>.<br>
 <b>Example 1:</b><br>
 <br>
 <pre>
-  <strong>Input:</strong> num = 16<br>
-  <strong>Output:</strong> true<br>
-  <strong>Explanation:</strong> We return true because 4 * 4 = 16 and 4 is an integer.<br>
+  <strong>Input:</strong> num = 16
+  <strong>Output:</strong> true
+  <strong>Explanation:</strong> We return true because 4 * 4 = 16 and 4 is an integer.
 </pre>
 <br>
 <b>Example 2:</b><br>
 <br>
 <pre>
-  <strong>Input:</strong> num = 14<br>
-  <strong>Output:</strong> false<br>
-  <strong>Explanation:</strong> We return false because 3.742 * 3.742 = 14 and 3.742 is not an integer.<br>
+  <strong>Input:</strong> num = 14
+  <strong>Output:</strong> false
+  <strong>Explanation:</strong> We return false because 3.742 * 3.742 = 14 and 3.742 is not an integer.
 </pre>
 <br> 
 <b>Constraints:</b><br>
