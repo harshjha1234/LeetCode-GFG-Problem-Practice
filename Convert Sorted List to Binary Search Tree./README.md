@@ -1,6 +1,6 @@
 <h3>109.Convert Sorted List to Binary Search Tree</h3>
 <br>
-Given the <code>head</code> of a singly linked list where elements are sorted in <strong>ascending order</strong>, convert it to a height-balanced <i>binary search tree</i>.
+Given the <code>head</code> of a singly linked list where elements are sorted in <strong>ascending order</strong>, convert it to a height-balanced <i>binary search tree</i>.<br>
 </br>
 <b>Example 1:</b><br>
 <br>
