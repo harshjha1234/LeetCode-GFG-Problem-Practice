@@ -32,6 +32,6 @@ Given the integer array <code>candyType</code> of length <code>n</code>, return 
 <b>Constraints:</b><br>
 <br>
 <li><code>n == candyType.length</li></code>
-<li><code>2 <= n <= 10^4</li></code>
+<li><code>2 <= n <= 10<sup>4</sup></li></code>
 <li><code>n</code> is even.</li>
-<li><code>-10^5 <= candyType[i] <= 10^5</li></code>
+<li><code>-10<sup>5</sup> <= candyType[i] <= 10<sup>5</sup></li></code>
