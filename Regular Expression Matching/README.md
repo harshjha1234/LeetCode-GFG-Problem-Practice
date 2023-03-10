@@ -8,6 +8,7 @@ Given an input string <code>s</code> and a pattern <code>p</code>, implement reg
 The matching should cover the <strong>entire</strong> input string (not partial).<br>
 <br>
 <b>Example 1:</b><br>
+<br>
 <pre>
   <strong>Input:</strong> s = "aa", p = "a"
   <strong>Output:</strong> false
@@ -35,4 +36,4 @@ The matching should cover the <strong>entire</strong> input string (not partial)
 <li><code>1 <= p.length <= 20</code></li>
 <li><code>s</code> contains only lowercase English letters.</li>
 <li><code>p</code> contains only lowercase English letters, <code>'.'</code>, and <code>'*'</code>.</li>
-<li>It is guaranteed for each appearance of the character <code>'*'<code>, there will be a previous valid character to match.</li>
+<li>It is guaranteed for each appearance of the character <code>'*'</code>, there will be a previous valid character to match.</li>
