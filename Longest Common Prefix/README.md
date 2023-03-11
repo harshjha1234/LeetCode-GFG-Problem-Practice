@@ -20,6 +20,6 @@ If there is no common prefix, return an empty string <code>""</code>.<br>
 <br>
 <b>Constraints:</b><br>
 <br>
-<li><code>1 <= strs.length <= 200<code></li>
+<li><code>1 <= strs.length <= 200</code></li>
 <li><code>0 <= strs[i].length <= 200</code></li>
 <li><code>strs[i]</code> consists of only lowercase English letters.</li>
