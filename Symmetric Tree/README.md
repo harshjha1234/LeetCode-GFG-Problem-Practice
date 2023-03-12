@@ -9,7 +9,7 @@ Given the <code>root</code> of a binary tree, <i>check whether it is a mirror of
 <pre>
   <strong>Input:</strong> root = [1,2,2,3,4,4,3]
   <strong>Output:</strong> true
-<pre>
+</pre>
 <br>
 <b>Example 2:</b><br>
 <br>
@@ -18,7 +18,7 @@ Given the <code>root</code> of a binary tree, <i>check whether it is a mirror of
 <pre>
   <strong>Input:</strong> root = [1,2,2,null,3,null,3]
   <strong>Output:</strong> false
-<pre>
+</pre>
 <br>
 <b>Constraints:</b><br>
 <br>
