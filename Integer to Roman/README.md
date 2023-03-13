@@ -1,9 +1,9 @@
-12. Integer to Roman
+<h3>12. Integer to Roman</h3>
 <br>
 Roman numerals are represented by seven different symbols: <code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.<br>
 <br>
 <pre>
-  <strong>Symbol<strong>       <strong>Value<strong>
+  <strong>Symbol</strong>       <strong>Value</strong>
   I             1
   V             5
   X             10
