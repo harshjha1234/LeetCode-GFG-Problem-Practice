@@ -17,13 +17,17 @@ Return <i>the head of the merged linked list</i>.<br>
 <br>
 <b>Example 2:</b><br>
 <br>
+<pre>
   <strong>Input:</strong> list1 = [], list2 = []
   <strong>Output:</strong> []
+</pre>
 <br>
 <b>Example 3:</b><br>
 <br>
+<pre>
   <strong>Input:</strong> list1 = [], list2 = [0]
   <strong>Output:</strong> [0]
+</pre>
 <br>
 <b>Constraints:</b><br>
 <br>
