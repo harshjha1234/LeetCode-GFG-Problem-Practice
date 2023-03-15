@@ -9,7 +9,7 @@ Given two strings <code>needle</code> and <code>haystack</code>, return the inde
   <strong>Output:</strong> 0
   <strong>Explanation:</strong> "sad" occurs at index 0 and 6.<br>
   The first occurrence is at index 0, so we return 0.
-<pre/>
+</pre>
 <br>
 <b>Example 2:</b><br>
 <br>
