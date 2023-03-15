@@ -7,7 +7,7 @@ Given two strings <code>needle</code> and <code>haystack</code>, return the inde
 <pre>
   <strong>Input:</strong> haystack = "sadbutsad", needle = "sad"
   <strong>Output:</strong> 0
-  <strong>Explanation:</strong> "sad" occurs at index 0 and 6.<br>
+  <strong>Explanation:</strong> "sad" occurs at index 0 and 6.
   The first occurrence is at index 0, so we return 0.
 </pre>
 <br>
