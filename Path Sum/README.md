@@ -1,8 +1,8 @@
 <h3>112. Path Sum</h3>
 <br>
-Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.<br>
+Given the <code>root</code> of a binary tree and an integer <code>targetSum</code>, return <code>true</code> if the tree has a <strong>root-to-leaf</strong> path such that adding up all the values along the path equals <code>targetSum</code>.<br>
 <br>
-A leaf is a node with no children.<br>
+A <strong>leaf</strong> is a node with no children.<br>
 <br>
 <b>Example 1:</b><br>
 <br>
@@ -14,7 +14,7 @@ A leaf is a node with no children.<br>
   <strong>Explanation:</strong> The root-to-leaf path with the target sum is shown.
 </pre>
 <br>
-<b>Example 2:<b><br>
+<b>Example 2:</b><br>
 <br>
 <img src="https://user-images.githubusercontent.com/74855047/226698322-c5f60a0a-8fe1-4a4f-88ec-2b9d643bc672.png">
 <br>
