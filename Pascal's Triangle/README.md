@@ -4,7 +4,7 @@ Given an integer <code>numRows</code>, return the first numRows of <strong>Pasca
 <br>
 In <strong>Pascal's triangle</strong>, each number is the sum of the two numbers directly above it as shown:<br>
 <br>
-<img src="https://user-images.githubusercontent.com/74855047/226994838-9208aca0-205f-4a16-8191-73a596b62cf5.png">
+<img alt src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif">
 <br>
 <b>Example 1:</b><br>
 <br>
