@@ -22,8 +22,10 @@ In <strong>Pascal's triangle</strong>, each number is the sum of the two numbers
 <br>
 <b>Example 3:</b><br>
 <br>
-<strong>Input:</strong> rowIndex = 1
-<strong>Output:</strong> [1,1]
+<pre>
+  <strong>Input:</strong> rowIndex = 1
+  <strong>Output:</strong> [1,1]
+</pre>
 <br>
 <b>Constraints:</b><br>
 <br>
