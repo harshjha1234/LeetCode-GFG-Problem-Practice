@@ -29,5 +29,5 @@ Given the <code>root</code> of a binary tree, invert the tree, and return its ro
 <br>
 <b>Constraints:</b><br>
 <br>
-<li>The number of nodes in the tree is in the range <code>[0, 100]</code></li>.
+<li>The number of nodes in the tree is in the range <code>[0, 100]</code>.</li>
 <li><code>-100 <= Node.val <= 100</code></li>
