@@ -2,7 +2,7 @@
 <br>
 An <strong>ugly number</strong> is a positive integer whose prime factors are limited to <code>2</code>, <code>3</code>, and <code>5</code>.<br>
 <br>
-Given an integer <code>n</code>, return <code>true<code> if <code>n</code> is an <strong>ugly number</strong>.<br>
+Given an integer <code>n</code>, return <code>true</code> if <code>n</code> is an <strong>ugly number</strong>.<br>
 <br>
 <b>Example 1:</b><br>
 <br>
