@@ -28,5 +28,5 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 <br>
 <b>Constraints:</b><br>
 <br>
-<li>The number of nodes in the list is in the range [0, 100].</li>
-<li>0 <= Node.val <= 100</li>
+<li>The number of nodes in the list is in the range <code>[0, 100]</code>.</li>
+<li><code>0 <= Node.val <= 100</code></li>
