@@ -1,6 +1,6 @@
 <h3>1028. Recover a Tree From Preorder Traversal</h3>
 <br>
-We run a preorder depth-first search (DFS) on the <code>root<code> of a binary tree.<br>
+We run a preorder depth-first search (DFS) on the <code>root</code> of a binary tree.<br>
 <br>
 At each node in this traversal, we output <code>D</code> dashes (where <code>D</code> is the depth of this node), then we output the value of this node. <br> 
 If the depth of a node is <code>D</code>, the depth of its immediate child is <code>D + 1</code>.  The depth of the <code>root</code> node is <code>0</code>.<br>
