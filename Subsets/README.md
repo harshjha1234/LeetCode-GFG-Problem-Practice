@@ -1,6 +1,6 @@
 <h3>78. Subsets</h3>
 <br>
-Given an integer array nums of unique elements, return all possible [subsets] (the power set).<br>
+Given an integer array <code>nums</code> of unique elements, return all possible subsets (the power set).<br>
 <br>
 The solution set <strong>must not</strong> contain duplicate subsets. Return the solution in <strong>any order</strong>.<br>
 <br>
