@@ -7,7 +7,8 @@ class Solution {
 				    break;
 			    } else if (m1 == -1||nums2[m2] >= nums1[m1]) {
 				    nums1[i] = nums2[m2--];
-			    } else {
+			    } 
+       else {
 				    nums1[i] = nums1[m1--];
 			    }
 		   }
