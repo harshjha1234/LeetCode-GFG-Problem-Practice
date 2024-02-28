@@ -2,49 +2,50 @@
 import java.io.*;
 import java.util.*;
 
-class GFG {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
-        int t =
-            Integer.parseInt(br.readLine().trim()); // Inputting the testcases
-        while (t-- > 0) {
-            int n = Integer.parseInt(br.readLine().trim());
-            int arr[] = new int[n];
-            String inputLine[] = br.readLine().trim().split(" ");
-            for (int i = 0; i < n; i++) {
-                arr[i] = Integer.parseInt(inputLine[i]);
-            }
-            System.out.println(new Solution().maxIndexDiff(arr, n));
-        }
-    }
+class Main {
+    
+	public static void main (String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int t = Integer.parseInt(br.readLine().trim()); //Inputting the testcases
+		while(t-->0){
+		    int n = Integer.parseInt(br.readLine().trim()); // size of array
+		    int arr[] = new int[n];
+		    String inputLine[] = br.readLine().trim().split(" ");
+		    for(int i=0; i<n; i++){
+		        arr[i] = Integer.parseInt(inputLine[i]); // input elements of array
+		    }
+		    
+		    Solution ob = new Solution();
+		    
+		    System.out.println(ob.maxIndexDiff(arr, n)); // print the result
+		}
+	}
 }
 // } Driver Code Ends
 
 
-class Solution {
-
-    int maxIndexDiff(int arr[], int n) {
-        // code here
-        int[] prefixMin = new int[n];
-        prefixMin[0] = arr[0];
-
-        for(int i = 1; i < n; i++){
-            prefixMin[i] = Math.min(prefixMin[i-1], arr[i]);
-        }
-
-
-        int r=n-1,l=n-1,maxDist = Integer.MIN_VALUE;
-
-        while(r >= 0 && l >= 0){
-            if(arr[r] >= prefixMin[l]){
-                maxDist = Math.max(maxDist, (r-l));
-                l--;
-            }else{
-                r--;
-            }
-
-        }
-        return maxDist;
+class Solution{
+    
+    // A[]: input array
+    // N: size of array
+    // Function to find the maximum index difference.
+    static int maxIndexDiff(int a[], int n) { 
+       int diff=0; 
+       int count=0;
+       for(int i=0; i<n; i++)
+       {
+           for(int j=n-1; j>=i; j--)
+           {
+               if(a[j]>=a[i])
+               {
+                   count=j-i;
+                   diff=Math.max(diff , count);
+                   break;
+               }
+           }
+       }
+       return diff;
     }
 }
+
+
