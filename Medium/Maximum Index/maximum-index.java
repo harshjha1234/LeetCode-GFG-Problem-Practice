@@ -30,21 +30,26 @@ class Solution{
     // N: size of array
     // Function to find the maximum index difference.
     static int maxIndexDiff(int a[], int n) { 
-       int diff=0; 
-       int count=0;
-       for(int i=0; i<n; i++)
-       {
-           for(int j=n-1; j>=i; j--)
-           {
-               if(a[j]>=a[i])
-               {
-                   count=j-i;
-                   diff=Math.max(diff , count);
-                   break;
-               }
-           }
-       }
-       return diff;
+        Stack<Integer> st=new Stack<>();
+        st.push(n-1);
+        for(int i=n-2;i>=0;i--)
+        {
+            if(a[i]>a[st.peek()])
+            {
+                st.push(i);
+            }
+        }
+        int low=0;
+        int ans=0;
+        while(!st.isEmpty() && low<n)
+        {
+            if(a[st.peek()]>=a[low]){
+                ans=Math.max(ans,st.pop()-low);
+            }else{
+                low++;
+            }
+        }
+        return ans;
     }
 }
 
