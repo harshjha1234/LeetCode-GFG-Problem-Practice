@@ -55,58 +55,18 @@ class Solution
     public static ArrayList<Integer> findUnion(int arr1[], int arr2[], int n, int m)
     {
         // add your code here
-        ArrayList<Integer> res = new ArrayList<>();
-        int i=0,j=0;
-        while(i<n && j<m)
-        {
-            if(i>0 && arr1[i]==arr1[i-1])
-            {
-                i++;
-                continue;
-            }
-            if(j>0 && arr2[j]==arr2[j-1])
-            {
-                j++;
-                continue;
-            }
-            if(arr1[i]<arr2[j])
-            {
-                res.add(arr1[i]);
-                i++;
-            }
-            else if(arr1[i]>arr2[j])
-            {
-                res.add(arr2[j]);
-                j++;
-            }
-            else
-            {
-               res.add(arr1[i]);
-                i++;
-                j++;
-            }
+        SortedSet <Integer>set = new TreeSet <>();
+        for(int i :arr1){
+            set.add(i);
         }
-        while(i<n)
-        {
-            if(i>0 && arr1[i]==arr1[i-1])
-            {
-                i++;
-                continue;
-            }
-            res.add(arr1[i]);
-            i++;
+        for(int i :arr2){
+            set.add(i);
         }
-        while(j<m)
-        {
-            if(j>0 && arr2[j]==arr2[j-1])
-            {
-                j++;
-                continue;
-            }
-            res.add(arr2[j]);
-            j++;
+        ArrayList<Integer> l = new  ArrayList<Integer>();
+         for(int  i :set){
+           l.add(i);
         }
-        return res;
+        return l;
     }
 }
 
